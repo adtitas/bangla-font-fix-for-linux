@@ -1,6 +1,6 @@
 ## Bangla Font Fix for Linux
 Fonts from Win10_20H2_English_x64.iso (Extracted)<br>
-If you want to install Windows 10 fonts on Linux, visit this [repo](https://github.com/adtitas/win10-fonts-for-linux).
+If you want to install Windows 10 fonts (without bangla font fix) on Linux, visit this [repo](https://github.com/adtitas/win10-fonts-for-linux).
 
 ### Introduction
 If the Bangla font in your Linux system looks ugly to you (in browser or any app), then you've come to the right place.<br>
@@ -23,5 +23,5 @@ mkdir -p ~/bangla-font-fix && wget -c https://raw.githubusercontent.com/adtitas/
 ```
 ### Notes
 * If `git` isn't installed on your system, you may need to install it. Visit [here](https://git-scm.com/download/linux).
-* If `wget` isn't installed on your system, you may need to install it. Visit [here](https://www.tecmint.com/install-wget-in-linux)
+* If `wget` isn't installed on your system, you may need to install it. Visit [here](https://www.tecmint.com/install-wget-in-linux).
 

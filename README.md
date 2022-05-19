@@ -12,7 +12,7 @@ All you need to do is run only one command. Have a nice day!
 
 Copy the code and paste it to your terminal:
 ```console
-git clone https://github.com/adtitas/win10-fonts-for-linux.git && sudo mkdir -p /usr/share/fonts/win10-fonts && sudo cp -n -r WindowsFonts/. /usr/share/fonts/win10-fonts/ && sudo chmod 755 /usr/share/fonts/win10-fonts && fc-cache && wget https://raw.githubusercontent.com/adtitas/bangla-font-fix-for-linux/main/50-bangla.conf && mkdir -p ~/.config/fontconfig/conf.d && cp -n ~/bangla-font-fix/50-bangla.conf $_
+git clone https://github.com/adtitas/win10-fonts-for-linux.git && sudo mkdir -p /usr/share/fonts/win10-fonts && sudo cp -n -r win10-fonts-for-linux/WindowsFonts/. /usr/share/fonts/win10-fonts/ && sudo chmod 755 /usr/share/fonts/win10-fonts && fc-cache && wget https://raw.githubusercontent.com/adtitas/bangla-font-fix-for-linux/main/50-bangla.conf && mkdir -p ~/.config/fontconfig/conf.d && cp -n 50-bangla.conf $_
 ```
 
 > To set bangla font only (nirmala  ui)<br>
